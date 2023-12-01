@@ -1,0 +1,60 @@
+/* Reset some default styles for consistency */
+body {
+    background-color: #f0f0f0; /* Set the background color */
+    background-image: url(https://i.pinimg.com/564x/b9/e5/9a/b9e59a22bf9cca4076dc966a0aa31b54.jpg)
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(255, 253, 253);
+    background-image: url(https://i.pinimg.com/564x/b9/e5/9a/b9e59a22bf9cca4076dc966a0aa31b54.jpg);
+    color: #ffffff;
+    padding: 40px 0;
+    font-size: large;
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 36px;
+    background-color: rgb(238, 3, 109);
+
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: large;
+}
+
+p {
+    color: white;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: larger;
+    font: bolder;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+}
+
+/* Media queries for responsive design can be added here */
